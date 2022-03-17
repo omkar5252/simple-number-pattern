@@ -1,10 +1,14 @@
-# 5
-# 5 4
-# 5 4 3
-# 5 4 3 2
-# 5 4 3 2 1
-
-for i in range(5,0,-1):
-    for j in range(5,i-1,-1):
-        print(j,end=" ")
+'''
+A
+A B
+A B C
+A B C D
+A B C D E
+'''
+for i in range(1,6):
+    ch =65
+    for j in range(1,i+1):
+        print(chr(ch),end=" ")
+        ch+=1
     print()
+
